@@ -34,6 +34,7 @@ namespace Binary_Tree.models
         public void IncreaseCounter()
         {
             this.Counter++;
+            Counter = Counter+1;
         }
 
         public bool Add(int itemToAdd)
