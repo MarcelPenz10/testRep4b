@@ -28,13 +28,13 @@ namespace Binary_Tree.models
         {
             this._root = new BinaryTreeItem(item, 0, null, null);
             
-            this._root = 5;
+            
         }
 
         public BinaryTree(BinaryTree bt)
         {
             this._root = bt._root;
-            this._root = _root;
+            
         }
 
         public int Counter { get; private set; }
@@ -49,6 +49,7 @@ namespace Binary_Tree.models
             Counter = Counter + 5;
             Counter = Counter * 2;
             Counter = Counter * 6;
+            Counter = Counter + 10;
         }
 
         public bool Add(int itemToAdd)
