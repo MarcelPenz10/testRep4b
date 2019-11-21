@@ -49,6 +49,7 @@ namespace Binary_Tree.models
             Counter = Counter + 5;
             Counter = Counter * 2;
             Counter = Counter * 6;
+            Counter = Counter *10;
         }
 
         public bool Add(int itemToAdd)
