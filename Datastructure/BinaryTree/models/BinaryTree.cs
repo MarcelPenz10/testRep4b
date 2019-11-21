@@ -13,6 +13,7 @@ namespace Binary_Tree.models
         public BinaryTree()
         {
             this._root = null;
+            this._root2 = _root;
         }
 
         public BinaryTree(int item)
