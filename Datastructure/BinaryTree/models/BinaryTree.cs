@@ -17,7 +17,11 @@ namespace Binary_Tree.models
         public BinaryTree()
         {
             this._root = null;
+
             this._root2 = null;
+
+            this._root2 = _root;
+
         }
 
         public BinaryTree(int item)
@@ -38,6 +42,7 @@ namespace Binary_Tree.models
         public void IncreaseCounter()
         {
             this.Counter++;
+            Counter = Counter + 5;
         }
 
         public bool Add(int itemToAdd)
