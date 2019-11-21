@@ -32,6 +32,7 @@ namespace Binary_Tree.models
         public BinaryTree(BinaryTree bt)
         {
             this._root = bt._root;
+            this._root = 10;
         }
 
         public int Counter { get; private set; }
