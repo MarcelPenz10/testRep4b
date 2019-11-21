@@ -42,6 +42,7 @@ namespace Binary_Tree.models
         public void IncreaseCounter()
         {
             this.Counter++;
+            Counter = Counter+1;
             Counter = Counter + 5;
         }
 
