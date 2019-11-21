@@ -50,6 +50,7 @@ namespace Binary_Tree.models
             Counter = Counter * 2;
             Counter = Counter * 6;
             Counter = Counter *10;
+            // dreckiger Hurensohn du elendiger
         }
 
         public bool Add(int itemToAdd)
