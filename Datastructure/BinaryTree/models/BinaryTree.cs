@@ -8,11 +8,16 @@ namespace Binary_Tree.models
     {
         private BinaryTreeItem _root;
 
+
         private BinaryTreeItem _root3;
 
+
+        private BinaryTreeItem _root2;
+        
         public BinaryTree()
         {
             this._root = null;
+            this._root2 = null;
         }
 
         public BinaryTree(int item)
