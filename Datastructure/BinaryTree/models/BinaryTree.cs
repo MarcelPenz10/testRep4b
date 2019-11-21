@@ -27,6 +27,8 @@ namespace Binary_Tree.models
         public BinaryTree(int item)
         {
             this._root = new BinaryTreeItem(item, 0, null, null);
+            
+            this._root = 5;
         }
 
         public BinaryTree(BinaryTree bt)
